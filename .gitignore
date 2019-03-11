@@ -1,0 +1,30 @@
+# Compiled python modules.
+*.pyc
+
+# log files
+*.log
+
+# output files
+/output-files/*
+/.pytest_cache/
+
+# Setuptools distribution folder
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# PyCharm files
+/.idea/
+
+# Byte-compiled files
+*/__pycache__/
+
+# MacOS-specific binary info
+.DS_Store
+
+# mypy cache
+/.mypy_cache/
+
+# Application database
+*.db
